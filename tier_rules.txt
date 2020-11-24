@@ -1,0 +1,31 @@
+Tier 1:
+Meeting indoors - 6 people can meet from 2 households in home or public place
+Working - Work at home advised when practicable, essential businesses continue to operate
+Hospitality - All open, under normal licensing rules, closed by 22:30
+Shopping - Open as long as following safety guidance
+Travel - No travel into tier 3/4 unless necessary
+Leisure - Nightclubs closed, others can remain open
+
+Tier 2:
+Meeting indoors - No meeting in households. 6 people can meet from 2 households in public place 
+Working - Work at home advised when practicable, essential businesses continue to operate
+Hospitality - All can be open, alcoholic drinks only with meal. Closed by 20:00 
+Shopping - Open as long as following safety guidance
+Travel - No travel into tier 3/4 unless necessary
+Leisure - Casinos, soft play, concert halls closed. Cinemas, bingo halls can remain open
+
+Tier 3:
+Meeting indoors - No meeting in households. 6 people can meet from 2 households in public place
+Working - Work at home advised when practicable, essential businesses continue to operate
+Hospitality - All can be open, alcoholic drinks only with meal. Closed by 18:00 
+Shopping - Open as long as following safety guidance
+Travel - No travel in or out of tier 3/4 unless necessary
+Leisure - All leisure must be closed
+
+Tier 4:
+Meeting indoors - No meeting in households. 6 people can meet from 2 households in public place
+Working - Work at home advised when practicable, essential businesses continue to operate with minimum people necessary
+Hospitality - All must be closed
+Shopping - Only essential retail open, following safety guidance
+Travel - No travel in or out of tier 3/4 unless necessary
+Leisure - All leisure must be closed
