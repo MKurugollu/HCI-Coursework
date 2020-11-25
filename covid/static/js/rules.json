@@ -1,0 +1,48 @@
+{
+  "Tiers": [
+    {
+      "Number": 1,
+      "Rules": {
+        "Meeting indoors": "6 people can meet from 2 households in home or public place",
+        "Working": "Work at home advised when practicable, essential businesses continue to operate",
+        "Hospitality": "All open, under normal licensing rules, closed by 22:30",
+        "Shopping": "Open as long as following safety guidance",
+        "Travel": "No travel into tier 3/4 unless necessary",
+        "Leisure": "Nightclubs closed, others can remain open"
+      }
+    },
+    {
+      "Number": 2,
+      "Rules": {
+        "Meeting indoors": "No meeting in households. 6 people can meet from 2 households in public place",
+        "Working": "Work at home advised when practicable, essential businesses continue to operate",
+        "Hospitality": "All can be open, alcoholic drinks only with meal. Closed by 20:00 ",
+        "Shopping": "Open as long as following safety guidance",
+        "Travel": "No travel into tier 3/4 unless necessary",
+        "Leisure": "Casinos, soft play, concert halls closed. Cinemas, bingo halls can remain open"
+      }
+    },
+    {
+      "Number": 3,
+      "Rules": {
+        "Meeting indoors": "No meeting in households. 6 people can meet from 2 households in public place",
+        "Working": "Work at home advised when practicable, essential businesses continue to operate",
+        "Hospitality": "All can be open, alcoholic drinks only with meal. Closed by 18:00",
+        "Shopping": "Open as long as following safety guidance",
+        "Travel": "No travel in or out of tier 3/4 unless necessary",
+        "Leisure": "All leisure must be closed"
+      }
+    },
+    {
+      "Number": 4,
+      "Rules": {
+        "Meeting indoors": "No meeting in households. 6 people can meet from 2 households in public place",
+        "Working": "Work at home advised when practicable, essential businesses continue to operate with minimum people necessary",
+        "Hospitality": "All must be closed",
+        "Shopping": "Only essential retail open, following safety guidance",
+        "Travel": "No travel in or out of tier 3/4 unless necessary",
+        "Leisure": "All leisure must be closed"
+      }
+    }
+  ]
+}
