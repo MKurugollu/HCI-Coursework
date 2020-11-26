@@ -1,4 +1,7 @@
-var mymap = L.map('mapid').setView([56, -4], 7);
+var mymap = L.map('mapid', {
+    minZoom: 6.25
+});
+mymap.setView([58, -4], 6.25);
 
 // Set up map using leaflet
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -66,6 +69,10 @@ $.getJSON("static/js/sco_admin_bounds.json", function (data) {
             fillOpacity: 0.7
         });
 
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+        }
+
         previousArea = e.target
 
     }
@@ -114,14 +121,23 @@ $.getJSON("static/js/sco_admin_bounds.json", function (data) {
 
             // props will be undefined when no area is selected
             if (typeof (props) !== "undefined") {
+                // -1 for indexing
                 rules = ruleData.Tiers[props.Tier - 1].Rules;
+                moreInfo = ruleData.Tiers[props.Tier - 1].More;
+                console.log(moreInfo)
 
                 // creates the div holdings all rules for current area
                 for (rule in rules) {
-                    rulesDiv += '<p>' + rules[rule] + '</p>';
+                    rulesDiv += '<p id="rule-heading">' + rule + '</p>' + '<p>' + ' - ' + rules[rule] + '</p>';
                 }
-            }
 
+                rulesDiv += '<div class="row">' +
+                    '<div class="col">' + '<a href="' + moreInfo + '">Click here for more info about this tiers restrictions!</a></div>' +
+                    '<div class="col"><button id="resetButton" type="button" class="btn btn-primary">Reset selection!</button></div>'
+
+                // rulesDiv += '</div><a href="'+ moreInfo + '">Click here for more info about this tier\'s restrictions!</a>' +
+                //     '<button type="button" class="btn btn-primary">Reset selection!</button>'
+            }
 
             // checks if area is selected and displays area name, tier, and rules
             // LAD13NM is the area name : local administrative district 2013 name
@@ -137,6 +153,5 @@ $.getJSON("static/js/sco_admin_bounds.json", function (data) {
     };
 
     info.addTo(mymap);
-
 
 });

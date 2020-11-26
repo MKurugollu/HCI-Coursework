@@ -2,6 +2,7 @@
   "Tiers": [
     {
       "Number": 1,
+      "More" : "https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-1/",
       "Rules": {
         "Meeting indoors": "6 people can meet from 2 households in home or public place",
         "Working": "Work at home advised when practicable, essential businesses continue to operate",
@@ -20,7 +21,8 @@
         "Shopping": "Open as long as following safety guidance",
         "Travel": "No travel into tier 3/4 unless necessary",
         "Leisure": "Casinos, soft play, concert halls closed. Cinemas, bingo halls can remain open"
-      }
+      },
+      "More" : "https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-2/"
     },
     {
       "Number": 3,
@@ -31,7 +33,8 @@
         "Shopping": "Open as long as following safety guidance",
         "Travel": "No travel in or out of tier 3/4 unless necessary",
         "Leisure": "All leisure must be closed"
-      }
+      },
+      "More" : "https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/"
     },
     {
       "Number": 4,
@@ -42,7 +45,8 @@
         "Shopping": "Only essential retail open, following safety guidance",
         "Travel": "No travel in or out of tier 3/4 unless necessary",
         "Leisure": "All leisure must be closed"
-      }
+      },
+      "More" : "https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/"
     }
   ]
 }

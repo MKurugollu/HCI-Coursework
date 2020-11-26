@@ -23,19 +23,27 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
     <div class="jumbotron">
-        <h1>What COVID-19 tier are you in?</h1>
-        <br>
+        <div class="title jumbotron">
+            <h1>Which COVID-19 tier are you in?</h1>
+        </div>
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-6">
+                <!-- This is the map -->
                 <div id="mapid"></div>
             </div>
-            <div class="col-lg-4">
-                <div id="areaInfo" , class="jumbotron">
+            <div class="col-lg">
+                <div id="areaInfo" , class="info jumbotron">
                     <h1 id="areaInfoTitle"></h1>
                     <p id="areaRules"></p>
                 </div>
+                <div id="areaInfo" , class="info jumbotron">
+                    <h3>Quick Stats</h3>
+                    <h4>Total Cases: 90,961 </h4>
+                    <h4>Total Deaths: 3,588 </h4>
+                    <img id="graphImg" src="{% static "Images/graph.png" %}" alt="Daily new cases from previous 7 days with weekly average">
+                    </div>
             </div>
         </div>
     </div>
