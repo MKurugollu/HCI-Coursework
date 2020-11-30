@@ -146,7 +146,7 @@ $.getJSON("static/js/sco_admin_bounds.json", function (data) {
                 '<h2>Tier ' + props.Tier + '</h2>' +
                 rulesDiv
 
-                : '<h1>Click on an area!</h1>');
+                : '<h1>Click on an area or enter your postcode!</h1>');
 
 
         });

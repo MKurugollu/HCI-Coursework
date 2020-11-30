@@ -32,6 +32,15 @@
             <div class="col-lg-6">
                 <!-- This is the map -->
                 <div id="mapid"></div>
+
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Postcode" aria-label="Search">
+                        <button type="button" class="btn btn-outline-success mr-sm-2">Find</button>
+                        <button type="button" class="btn btn-outline-danger">Reset</button>
+                    </form>
+            </nav>
+
             </div>
             <div class="col-lg">
                 <div id="areaInfo" , class="info jumbotron">
@@ -42,8 +51,9 @@
                     <h3>Quick Stats</h3>
                     <h4>Total Cases: 90,961 </h4>
                     <h4>Total Deaths: 3,588 </h4>
-                    <img id="graphImg" src="{% static "Images/graph.png" %}" alt="Daily new cases from previous 7 days with weekly average">
-                    </div>
+                    <img id="graphImg" src="{% static "Images/graph.png" %}"
+                         alt="Daily new cases from previous 7 days with weekly average">
+                </div>
             </div>
         </div>
     </div>
